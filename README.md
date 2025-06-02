@@ -2,8 +2,20 @@
 
 Esta função AWS Lambda recebe um JSON com informações de um cliente e seus produtos, gera um PDF com esses dados e retorna o conteúdo do PDF em **Base64**.
 
----
+## 📦 Dependências
 
+Esta função Lambda utiliza as seguintes bibliotecas externas:
+
+- [**reportlab**](https://pypi.org/project/reportlab/): Utilizada para gerar o arquivo PDF a partir dos dados JSON.
+
+### Instalação local (para testes)
+
+bash
+pip install reportlab
+
+```
+
+```
 ## Como Testar a Função
 
 ### 1 Enviando a Requisição
